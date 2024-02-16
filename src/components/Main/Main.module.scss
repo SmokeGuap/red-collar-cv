@@ -1,0 +1,11 @@
+@import '/src/styles/variables';
+
+.main {
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
