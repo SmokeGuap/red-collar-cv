@@ -1,7 +1,7 @@
-export { ReactComponent as ArrowIcon } from './arrow.svg';
-export { ReactComponent as BlackArrowIcon } from './blackArrow.svg';
-export { ReactComponent as LogoIcon } from './logo.svg';
-export { ReactComponent as PhoneIcon } from './phone.svg';
-export { ReactComponent as MailIcon } from './mail.svg';
-export { ReactComponent as TelegramIcon } from './telegram.svg';
-export { ReactComponent as GithubIcon } from './github.svg';
+export { default as ArrowIcon } from './arrow.svg?react';
+export { default as BlackArrowIcon } from './blackArrow.svg?react';
+export { default as LogoIcon } from './logo.svg?react';
+export { default as PhoneIcon } from './phone.svg?react';
+export { default as MailIcon } from './mail.svg?react';
+export { default as TelegramIcon } from './telegram.svg?react';
+export { default as GithubIcon } from './github.svg?react';
