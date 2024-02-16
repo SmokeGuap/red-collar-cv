@@ -1,0 +1,22 @@
+@import '/src/styles/variables';
+
+.competences {
+  position: relative;
+  border: 1px solid $white;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.arrow {
+  position: absolute;
+  top: -1px;
+  left: 60px;
+}
+
+@media (max-width: 1000px) {
+  .arrow {
+    left: calc(50% - 30px);
+  }
+}

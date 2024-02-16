@@ -1,0 +1,36 @@
+@import '/src/styles/variables';
+
+.competence {
+  padding-bottom: 20px;
+  border-bottom: 1px solid $halfWhite;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.list,
+.skills {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subName,
+.years {
+  color: $halfWhite;
+}
+
+.skills {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+  .competence {
+    grid-template-columns: 1fr;
+  }
+}
