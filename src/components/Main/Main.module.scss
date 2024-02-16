@@ -5,7 +5,7 @@
 }
 
 .logo {
-  display: flex;
-  justify-content: flex-end;
+  margin-left: calc(100% - 240px);
+  width: max-content;
   margin-bottom: 10px;
 }
